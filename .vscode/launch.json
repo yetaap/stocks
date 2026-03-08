@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        },
+        {
+            "name": "velas_tiempo_real.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/velas_tiempo_real.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "cripto.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/cripto.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "dashboard_opciones.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/dashboard_opciones.py",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "console": "integratedTerminal"
+        }                  
+    ]
+}
